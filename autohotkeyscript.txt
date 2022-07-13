@@ -1,0 +1,12 @@
+Loop
+{
+  PixelSearch, Px, Py, 1552, 812, 1903, 930, 0xF8F8F8, 3, Fast
+  if ErrorLevel
+    sleep, 400
+  else
+  {
+    MouseClick, left, 993, 190, 1, 0
+TrayTip , complete, script has finished or bugged, 30, 1
+	Break 
+  }
+}
