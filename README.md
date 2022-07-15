@@ -3,6 +3,8 @@ MAKE SURE THAT YOU HAVE DOWNLOADED AUTOHOTKEY BEFORE YOU BEGIN! LINK: https://ww
 afk script to get spiritual projection in avatar the last airbender roblox/elimental adventures
 press q to begin the script's execution. it seems that I cant make a keybind stop it, so you just have to exit the script by right clicking it's icon down in the toolbar(that little up arrow near the time and stuff)
 
+I'm making a Gui (visual) version of this right now, I'll post it as soon as possible
+
 FULL TUTORIAL:
 
 1. make a new script, to make one right click on your home page(where your background for your computer is) and go to the "new" catagory, press autohotkey script
