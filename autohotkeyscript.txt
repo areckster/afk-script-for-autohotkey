@@ -1,8 +1,8 @@
 
-q:: ; starts the script
+q::
 loop
 {
-MouseClick, left, 898, 647, 2, 5 ; clicks the new game button twice to begin the grind
+MouseClick, left, 898, 647, 2, 3 ; clicks the new game button to begin the grind
 
 sleep 4000
 
@@ -38,4 +38,4 @@ sleep 12000
 }
 
 
-#p::Pause,Toggle ; doesnt actually work, tryna find a fix for it
+#p::Pause,Toggle
