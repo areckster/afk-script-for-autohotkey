@@ -1,12 +1,41 @@
-Loop
+
+q:: ; starts the script
+loop
 {
-  PixelSearch, Px, Py, 1552, 812, 1903, 930, 0xF8F8F8, 3, Fast
+MouseClick, left, 898, 647, 2, 5 ; clicks the new game button twice to begin the grind
+
+sleep 4000
+
+MouseClick, left, 1640, 229, 1, 4 ; clicks the finish button on avatar edits
+
+sleep 4000
+
+{
+PixelSearch, Px, Py, 1552, 812, 1903, 930, 0xF8F8F8, 3, Fast ; looks for spiritual projection notification to pop up
   if ErrorLevel
     sleep, 400
   else
   {
-    MouseClick, left, 993, 190, 1, 0
-TrayTip , complete, script has finished or bugged, 30, 1
+TrayTip , complete, script has finished or bugged, 30, 1 ; notifies you that the script has finished
+ExitApp
 	Break 
-  }
+  }}
+
+sleep 3000
+
+MouseClick, left, 36, 43, 1, 4 ; clicks the roblox button to begin the proccess of resetting character
+
+sleep 3000
+
+MouseClick, left, 646, 938, 1, 4 ; clicks reset character
+
+sleep 3000
+
+MouseClick, left, 810, 474, 1, 4 ; confirms reset character
+
+sleep 12000
+
 }
+
+
+#p::Pause,Toggle ; doesnt actually work, tryna find a fix for it
